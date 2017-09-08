@@ -112,7 +112,7 @@ input[type=checkbox] {
 
 #preperation {
 
-	margin-top: 20px;
+	margin-top: 184px;
 
 	-webkit-box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
 	-moz-box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
@@ -125,13 +125,14 @@ input[type=checkbox] {
 
 	background: white;
 	display: inherit;
+	padding-bottom: 40px;
 }
 
-li {
-	padding-top: 5px;
+ul {
+  list-style-type: none;
 }
 
-#result {
+.content-tab {
 
 	margin-top: 20px;
 
@@ -148,9 +149,14 @@ li {
 	display: inline;
 
 	float: left;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
+	padding-bottom: 30px;
 }
 
 img {
 	margin-left: 65px;
+}
+
+.info {
+	display: inline;
 }

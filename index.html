@@ -13,31 +13,71 @@
 		<h1>Chimichurri &amp; Steak</h1>
 	</div>
 
+	<section class="content-tab">
+		
+	<p>Chimichurri is een saus en marinade en wordt gebruikt bij gegrild vlees in de Argentijnse en Uruguayaanse keuken.</p>
+
+	<p class="info">
+
+	<img src="resources/time.png" alt="time">
+		10-15 minuten
+	</p>
+
+	<p class="info">
+		
+	<img src="resources/people.png" alt="people">
+		1-3 personen
+
+	</p>
+
+	</section>
+
 	<section id="ingredients">
 		
 	<h1>Ingrediënten</h1>
+		<ul>
+			<li>
+				<p><input id="1" type="checkbox" onclick="progressCheck(id)" name="olijfolie" value="olijfolie">
+				100 ml Olijfolie</p>
+			</li>
+			<li>
+				<p><input id="2" type="checkbox" onclick="progressCheck(id)" name="knoflook" value="knoflook">
+				4 teentjes knoflook</p>
+			</li>
+			<li>
+				<p><input id="3" type="checkbox" onclick="progressCheck(id)" name="chilipeper" value="chilipeper">
+				1 chilipeper (zonder zaadjes als je niet van pittig houd)</p>
+			</li>
+			<li>
+				<p><input id="4" type="checkbox" onclick="progressCheck(id)" name="wijnazijn" value="wijnazijn">
+				3 eetlepels rode wijnazijn</p>
+			</li>
+			<li>
+				<p><input id="5" type="checkbox" onclick="progressCheck(id)" name="oregano" value="oregano">
+				2 eetlepels oregano</p>
+			</li>
+			<li>
+				<p><input id="6" type="checkbox" onclick="progressCheck(id)" name="peterselie" value="peterselie">
+				10 gram peterselie</p>
+			</li>
+			<li>
+				<p><input id="7" type="checkbox" onclick="progressCheck(id)" name="pez" value="pez">
+				peper en zout</p>
+			</li>
+			<li>
+				<p><input id="8" type="checkbox" onclick="progressCheck(id)" name="steak" value="steak">
+				Steak</p>
+			</li>
+			<li>
+				<p><input id="9" type="checkbox" onclick="progressCheck(id)" name="boter" value="boter">
+				Bak Boter</p>
+			</li>
+			<li>
+				<p><input id="10" type="checkbox" onclick="progressCheck(id)" name="salam" value="salam">
+				Salam blad (optioneel)</p>
+			</li>
 
-		<p><input id="1" type="checkbox" onclick="progressCheck(id)" name="olijfolie" value="olijfolie">
-		100 ml Olijfolie</p>
-		<p><input id="2" type="checkbox" onclick="progressCheck(id)" name="knoflook" value="knoflook">
-		4 teentjes knoflook</p>
-		<p><input id="3" type="checkbox" onclick="progressCheck(id)" name="chilipeper" value="chilipeper">
-		1 chilipeper (zonder zaadjes als je niet van pittig houd)</p>
-		<p><input id="4" type="checkbox" onclick="progressCheck(id)" name="wijnazijn" value="wijnazijn">
-		3 eetlepels rode wijnazijn</p>
-		<p><input id="5" type="checkbox" onclick="progressCheck(id)" name="oregano" value="oregano">
-		2 eetlepels oregano</p>
-		<p><input id="6" type="checkbox" onclick="progressCheck(id)" name="peterselie" value="peterselie">
-		10 gram peterselie</p>
-		<p><input id="7" type="checkbox" onclick="progressCheck(id)" name="pez" value="pez">
-		peper en zout</p>
-		<p><input id="8" type="checkbox" onclick="progressCheck(id)" name="steak" value="steak">
-		Steak</p>
-		<p><input id="9" type="checkbox" onclick="progressCheck(id)" name="boter" value="boter">
-		Bak Boter</p>
-		<p><input id="10" type="checkbox" onclick="progressCheck(id)" name="salam" value="salam">
-		Salam blad (optioneel)</p>
-
+		</ul>
 
 		<progress id="ingredient-progress" value="0" max="10">
 
@@ -95,7 +135,7 @@
 
 	</section>
 
-	<section id="result">
+	<section class="content-tab">
 		
 		<h1>Resultaat:</h1>
 
