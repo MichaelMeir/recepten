@@ -1,0 +1,156 @@
+@import link('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed');
+
+/*
+
+Recept: Chimichurri & Steak
+
+ingredients:
+100 ml olijfolie
+4 teentjes knoflook, geperst
+een halve witte ui, gesnipperd
+1 chillipeper fijngesneden zonder zaadjes, of als je van erg pittig houd met
+3 eetlepels rode wijnazijn
+2 eetlepels verse oregano
+10 gram verse peterselie
+zout en peper
+
+preparement:
+Snij alle ingrediënten fijn en roer alles goed door elkaar.
+ Je kan het ook allemaal in de keukenmachine gooien
+  tot het een gelijke mix is. Maar ga niet te lang door,
+   chimichuri is volgens ons het lekkerst als het wat groffer is.
+
+Voeg zout en peper toe naar eigen smaak.
+
+Laat een paar uur in de koelkast staan voordat je het gaat gebruiken.
+ De smaak wordt er zeker beter van.
+
+*/
+
+body {
+
+	background: url("resources/background.png");
+
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	position: absolute;
+
+	font-family: 'Encode Sans Condensed', sans-serif;
+	color: #4c4c4c;
+
+	overflow-x: hidden;
+
+}
+
+#title-box {
+
+	margin-top: 50px;
+
+	-webkit-box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
+	-moz-box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
+	box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
+
+	padding: 10px;
+
+	width: 50%;
+	margin-left: 25%;
+
+	background: white;
+
+}
+
+#ingredients {
+
+	margin-top: 20px;
+
+	-webkit-box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
+	-moz-box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
+	box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
+
+	padding: 10px;
+
+	width: 15%;
+	margin-left: 25%;
+
+	background: white;
+	display: inline;
+
+	float: left;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+progress {
+	width: 185px;
+	border-radius: 5px;
+	background-color: #c9c9c9;
+	color: blue;
+	transition: all .2s ease-in;
+}
+
+progress::-webkit-progress-bar {
+	border-radius: 5px;
+	background-color: #c9c9c9;
+	color: blue;
+	transition: all .2s ease-in;
+}
+progress::-webkit-progress-value {
+	background-color: #42f47d;
+	border-radius: 5px;
+	color: blue;
+	transition: all .2s ease-in;
+}
+
+input[type=checkbox] {
+	background: white;
+	-webkit-appearance: radio;
+}
+
+#preperation {
+
+	margin-top: 20px;
+
+	-webkit-box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
+	-moz-box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
+	box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
+
+	padding: 10px;
+
+	width: 32%;
+	margin-left: 43%;
+
+	background: white;
+	display: inherit;
+}
+
+li {
+	padding-top: 5px;
+}
+
+#result {
+
+	margin-top: 20px;
+
+	-webkit-box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
+	-moz-box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
+	box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
+
+	padding: 10px;
+
+	width: 50%;
+	margin-left: 25%;
+
+	background: white;
+	display: inline;
+
+	float: left;
+	margin-bottom: 30px;
+}
+
+img {
+	margin-left: 65px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chimichurri &amp; Steak</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+
+	<div id="title-box"> 
+		<h1>Chimichurri &amp; Steak</h1>
+	</div>
+
+	<section id="ingredients">
+		
+	<h1>Ingrediënten</h1>
+
+		<p><input id="1" type="checkbox" onclick="progressCheck(id)" name="olijfolie" value="olijfolie">
+		100 ml Olijfolie</p>
+		<p><input id="2" type="checkbox" onclick="progressCheck(id)" name="knoflook" value="knoflook">
+		4 teentjes knoflook</p>
+		<p><input id="3" type="checkbox" onclick="progressCheck(id)" name="chilipeper" value="chilipeper">
+		1 chilipeper</p>
+		<p><input id="4" type="checkbox" onclick="progressCheck(id)" name="wijnazijn" value="wijnazijn">
+		3 eetlepels rode wijnazijn</p>
+		<p><input id="5" type="checkbox" onclick="progressCheck(id)" name="oregano" value="oregano">
+		2 eetlepels oregano</p>
+		<p><input id="6" type="checkbox" onclick="progressCheck(id)" name="peterselie" value="peterselie">
+		10 gram peterselie</p>
+		<p><input id="7" type="checkbox" onclick="progressCheck(id)" name="pez" value="pez">
+		peper en zout</p>
+		<p><input id="8" type="checkbox" onclick="progressCheck(id)" name="steak" value="steak">
+		Steak</p>
+		<p><input id="9" type="checkbox" onclick="progressCheck(id)" name="boter" value="boter">
+		Bak Boter</p>
+
+
+		<progress id="ingredient-progress" value="0" max="9">
+
+	</section>
+
+	<script>
+		
+		var clicked = new Array(10);
+
+		var value = 0;
+
+		function progressCheck(id) {
+
+			var pb = document.getElementById("ingredient-progress");
+
+			clicked[id] = !clicked[id];
+			
+			value = 0;
+
+			for(var i = 0; i < clicked.length; i++) {
+				if(clicked[i]) {
+					value += 1;
+				}
+			}
+
+			pb.setAttribute("value", value);
+
+		}
+
+	</script>
+
+	<section id="preperation">
+
+		<h1>Bereiding</h1>
+
+		<p>Voor de ChimiChurri: </p>
+			<ol>
+				<li>Snij alle ingrediënten fijn.</li>	
+				<li>Roer alles goed door elkaar. (dit kan ook in een keukenmachine)</li>
+				<li>Voeg zout en peper toe naar eigen smaak.</li>
+				<li>Laat de chimichurri in de koelkast staan voor een paar uur/minuten, de smaak wordt er zeker beter van.</li>
+
+			</ol>
+
+		<p>Voor de Steak: </p>
+			<ol>
+				<li>Pak een bord en plaats de steak erop, vervolgens voeg olijfolie toe.</li>
+				<li>Strooi wat zout en peper op de steak naar eigen smaak.</li>
+				<li>Wrijf de olie en specerijen goed in bij de steak.</li>
+				<li>Laat de steak staan voor ongeveer een kwartiertje tot een halfuur.</li>
+				<li>Voeg boter toe bij de pan en plaats de steak erin.</li>
+				<li>Laat de steak bakken voor een minuutje en draai hem constant om, je kan er zelf voor kiezen hoelang je dit doet als je hem goed doorbakken wil hebben.</li>
+
+			</ol>
+
+	</section>
+
+	<section id="result">
+		
+		<h1>Resultaat:</h1>
+
+		<img src="resources/result.png" alt="result1">
+		<img src="resources/result2.png" alt="result2">
+
+	</section>
+
+</body>
+</html>
