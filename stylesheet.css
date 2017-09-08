@@ -84,6 +84,10 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	text-align: center;
+}
+
 progress {
 	width: 185px;
 	border-radius: 5px;
@@ -112,7 +116,7 @@ input[type=checkbox] {
 
 #preperation {
 
-	margin-top: 184px;
+	margin-top: 235px;
 
 	-webkit-box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
 	-moz-box-shadow: 8px 9px 38px 0px rgba(0,0,0,0.24);
